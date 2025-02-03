@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[step 1 URL after click on checkOUT button: https://www.saucedemo.com/v1/checkout-step-one.html]]>
+    </line>
+    <line>
+      <![CDATA[actual Cart URL:https://www.saucedemo.com/v1/cart.html]]>
+    </line>
+    <line>
+      <![CDATA[actual description text: DESCRIPTION]]>
+    </line>
+    <line>
+      <![CDATA[actual quantity text: QTY]]>
+    </line>
+    <line>
+      <![CDATA[actual cart title: Your Cart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-01T13:43:58 IST" name="Default suite" finished-at="2025-02-01T13:44:34 IST" duration-ms="36297">
+    <groups>
+    </groups>
+    <test started-at="2025-02-01T13:43:58 IST" name="Default test" finished-at="2025-02-01T13:44:34 IST" duration-ms="36297">
+      <class name="testcases.CartPage_test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:43:58 IST" name="setup" finished-at="2025-02-01T13:44:06 IST" duration-ms="8541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnCheckoutBtnTest()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:06 IST" name="clickOnCheckoutBtnTest" finished-at="2025-02-01T13:44:08 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[step 1 URL after click on checkOUT button: https://www.saucedemo.com/v1/checkout-step-one.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnCheckoutBtnTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:08 IST" name="closeBrowser" finished-at="2025-02-01T13:44:08 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnCheckoutBtnTest status=SUCCESS method=CartPage_test.clickOnCheckoutBtnTest()[pri:0, instance:testcases.CartPage_test@2de23121] output=step 1 URL after click on checkOUT button: https://www.saucedemo.com/v1/checkout-step-one.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:08 IST" name="setup" finished-at="2025-02-01T13:44:14 IST" duration-ms="6018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCartPageURLTest()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:14 IST" name="verifyCartPageURLTest" finished-at="2025-02-01T13:44:14 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[actual Cart URL:https://www.saucedemo.com/v1/cart.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageURLTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:14 IST" name="closeBrowser" finished-at="2025-02-01T13:44:14 IST" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartPageURLTest status=SUCCESS method=CartPage_test.verifyCartPageURLTest()[pri:0, instance:testcases.CartPage_test@2de23121] output=actual Cart URL:https://www.saucedemo.com/v1/cart.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:14 IST" name="setup" finished-at="2025-02-01T13:44:20 IST" duration-ms="5937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDescriptionTextTest()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:20 IST" name="verifyDescriptionTextTest" finished-at="2025-02-01T13:44:20 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[actual description text: DESCRIPTION]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDescriptionTextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:20 IST" name="closeBrowser" finished-at="2025-02-01T13:44:20 IST" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDescriptionTextTest status=SUCCESS method=CartPage_test.verifyDescriptionTextTest()[pri:0, instance:testcases.CartPage_test@2de23121] output=actual description text: DESCRIPTION]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:20 IST" name="setup" finished-at="2025-02-01T13:44:26 IST" duration-ms="5872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyQuantityTextTest()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:26 IST" name="verifyQuantityTextTest" finished-at="2025-02-01T13:44:26 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[actual quantity text: QTY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyQuantityTextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:26 IST" name="closeBrowser" finished-at="2025-02-01T13:44:27 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQuantityTextTest status=SUCCESS method=CartPage_test.verifyQuantityTextTest()[pri:0, instance:testcases.CartPage_test@2de23121] output=actual quantity text: QTY]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:27 IST" name="setup" finished-at="2025-02-01T13:44:34 IST" duration-ms="7101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyYourCartTitleTest()[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:34 IST" name="verifyYourCartTitleTest" finished-at="2025-02-01T13:44:34 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[actual cart title: Your Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyYourCartTitleTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartPage_test@2de23121]" started-at="2025-02-01T13:44:34 IST" name="closeBrowser" finished-at="2025-02-01T13:44:34 IST" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyYourCartTitleTest status=SUCCESS method=CartPage_test.verifyYourCartTitleTest()[pri:0, instance:testcases.CartPage_test@2de23121] output=actual cart title: Your Cart]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.CartPage_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
